@@ -1,0 +1,11 @@
+name: demo-workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: start job
+        run: echo "Job starting"
+      - name: end job
+        run: echo "Job finshed"
+  
